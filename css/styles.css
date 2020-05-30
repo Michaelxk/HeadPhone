@@ -3,7 +3,6 @@
 :root {
   --primary-color: #333;
   --secondary-color: #444;
-  --overlay-color: rgba(0, 0, 0, 0.7);
 }
 
 * {
@@ -102,7 +101,9 @@ img {
 
 .section-b {
   position: relative;
-  background: url("/img/gal4958.jpg") no-repeat center/cover;
+  background: url("/dist/img/gal4958.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
   background-size: cover;
   height: 600px;
 }
